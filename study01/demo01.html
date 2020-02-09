@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--设置网页的语言en是英语，zh-CN是中文-->
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap学习</title>
+    <!--设置meta标签适应各种设备-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+</head>
+<body>
+    <!--container容器居中-->
+
+    <div class="container">
+
+    <h1>Hello,World</h1>
+        <!--row换行不写md和数字自动等宽布局，并且不会换行-->
+        <!--响应式布局，根据设置的分辨率自动调整大小可以自己调整每个设备一行显示多少内容-->
+        <!--es:特小576px，sm小576px-768px md 768px-992px lg992px-1200px el特大>1200px-->
+    <div class="row align-items-center justify-content-center" style="border: 3px solid red;height: 100px">
+        <!--垂直居中对齐-->
+        <div class="col-md-3 col-lg-3" style="background-color: red">
+            1234
+        </div>
+        <!--col-auto内容有多大就占多大-->
+        <!--类中有md,xs,sm的表示端点，也就是在什么屏幕下进行该操作-->
+        <!--mr-auto表示右边的部分自动，默认在最右边-->
+        <div class="col-md-3 order-first mr-auto" style="background-color: blue">
+            1234
+        </div>
+        <div class="col-md-3" style="background-color: green">
+            1234
+
+            <!--嵌套列-->
+            <div class="row">
+
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+    <!--全屏的容器-->
+    <div class="container-fluid"></div>
+
+
+
+</body>
+</html>

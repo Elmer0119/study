@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字体，背景和显示方式</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+<!--text-颜色改变字体颜色,bg-颜色改变背景颜色d-显示方式修改display属性-->
+<p class="text-danger bg-primary" >hello,world</p>
+<div class="d-inline-block">1234</div>
+<div class="d-inline-block">2345</div>
+<!--d-print-表示打印的时候的样式--><!--d-none表示display-none-->
+<div class="d-none d-print-block"></div>
+<!--text-center表示中间对齐bootstrap上面很多都有html的对应标签的类样式-->
+<p class="text-center">center</p>
+    <p class="text-right">right</p>
+    <p class="text-justify">两边对齐</p>
+    <div class="row">
+        <!--text-nowrap表示强制一行显示-->
+        <div class="col-md-6  border border-danger">
+            thanks for your advice;
+            <p class="text-uppercase">uppercase所有字母大写</p>
+            <p class="text-lowercase">LOW所有字母小写</p>
+            <p class="text-capitalize">now单词第一个字母大写</p>
+             <p>这是普通字体</p>
+            <p class="text-monospace">这是等宽字体</p>
+            <p class="text-justify">两端对齐</p>
+        </div>
+
+
+    </div>
+    <!--垂直对齐方式-->
+    访问<a href="https://www.baidu.com">百度</a>
+    <button class="align-bottom">点击查看</button>
+
+
+    <div  class="border border-danger" style="width:200px;height:200px">
+        <!--mw-100 mhh-100设置最大高度和宽度-->
+        <div class="bg-danger mw-100 mh-100" style="width:400px;height: 400px">111</div>
+    </div>
+</div>
+</body>
+</html>
