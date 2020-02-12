@@ -19,9 +19,8 @@
 
     <!--响应式表格，页面的大小自动生成滚动条适应屏幕-->
     <div class="table-responsive">
-    <table class="table table-hover table-bordered table-striped table-dark table-sm">
+    <table class="table table-hover table-bordered table-striped table-dark table-sm" id="mytable">
         <!--bootstrap中的caption重写过会显示在下面而不是表格的上面-->
-        <caption>学生信息表</caption>
         <thead>
         <th>编号</th>
         <th>姓名</th>
@@ -30,18 +29,7 @@
         </thead>
         <tbody>
         <!--table-颜色表示浅色，bg-颜色表示深色-->
-        <tr class="table-active">
-            <td>001</td>
-            <td>张三</td>
-            <td>男</td>
-            <td>20</td>
-        </tr>
-        <tr class="bg-danger">
-            <td>002</td>
-            <td>李四</td>
-            <td>男</td>
-            <td>21</td>
-        </tr>
+
         </tbody>
     </table>
 
@@ -49,6 +37,9 @@
     </div>
 
     </div>
-
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap-table.js"></script>
+    <script src="demo01.js"></script>
 </body>
 </html>
